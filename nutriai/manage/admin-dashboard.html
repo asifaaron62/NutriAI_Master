@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Admin Dashboard - NutriAI</title>
+<link rel="stylesheet" href="../css/base.css">
+<link rel="stylesheet" href="../css/user-portal.css">
+<link rel="stylesheet" href="../css/manage-portal.css">
+</head>
+<body>
+
+<div class="app">
+  <aside class="sidebar">
+    <div class="sidebar-brand">
+      <span class="logo-icon">&#9825;</span>
+      <div>
+        <div class="name">NutriAI</div>
+        <div class="portal">Admin Portal</div>
+      </div>
+    </div>
+    <nav class="sidebar-nav">
+      <a href="../manage/admin-dashboard.html" class="active">&#9638; Dashboard</a>
+      <a href="../manage/admin-users.html">&#128101; Manage Users</a>
+      <a href="../manage/admin-dietitians.html">&#128105; Manage Dietitians</a>
+      <a href="../manage/admin-foods.html">&#127823; Food Database</a>
+      <a href="../manage/admin-reports.html">&#128202; Reports</a>
+      <a href="../manage/admin-settings.html">&#9881; Settings</a>
+    </nav>
+    <div class="sidebar-user">
+      <div class="who">
+        <span class="avatar avatar-3">AD</span>
+        <div>
+          <div class="uname">Admin</div>
+          <div class="uemail">admin@nutriai.com</div>
+        </div>
+      </div>
+      <a href="../index.html" class="signout">Sign Out</a>
+    </div>
+  </aside>
+  <div class="main">
+    <header class="topbar">
+      <h1>Admin Dashboard</h1>
+      <div class="topbar-right">
+        <input class="search" type="text" placeholder="Search anything...">
+        <span class="bell">&#128276;</span>
+        <span class="avatar avatar-3">AD</span>
+      </div>
+    </header>
+    <div class="content">
+      <div class="card-row">
+        <div class="card stat-card">
+          <span class="trend-up">&#8599; +4.2%</span>
+          <span class="icon icon-blue">&#128101;</span>
+          <span class="big">5,412</span>
+          <span class="name">Total Users</span>
+          <span class="hint">+248 this month</span>
+        </div>
+        <div class="card stat-card">
+          <span class="trend-up">&#8599; +4.2%</span>
+          <span class="icon icon-green">&#128105;</span>
+          <span class="big">142</span>
+          <span class="name">Dietitians</span>
+          <span class="hint">+8 pending approval</span>
+        </div>
+        <div class="card stat-card">
+          <span class="icon icon-orange">&#128200;</span>
+          <span class="big">1,894</span>
+          <span class="name">Active Today</span>
+          <span class="hint">34.9% of users</span>
+        </div>
+      </div>
+      <div class="card-row">
+        <div class="card" style="flex: 1.5;">
+          <div class="card-head">
+            <h3>User &amp; Dietitian Growth</h3>
+            <span class="badge badge-gray">Last 6 Months</span>
+          </div>
+          <div class="line-chart">
+            <div class="pt"><div class="stick" style="height: 30%; background: #cddcf7;"><span class="knob" style="background: #5b8def;"></span></div>Mar</div>
+            <div class="pt"><div class="stick" style="height: 42%; background: #cddcf7;"><span class="knob" style="background: #5b8def;"></span></div>Apr</div>
+            <div class="pt"><div class="stick" style="height: 52%; background: #cddcf7;"><span class="knob" style="background: #5b8def;"></span></div>May</div>
+            <div class="pt"><div class="stick" style="height: 64%; background: #cddcf7;"><span class="knob" style="background: #5b8def;"></span></div>Jun</div>
+            <div class="pt"><div class="stick" style="height: 78%; background: #cddcf7;"><span class="knob" style="background: #5b8def;"></span></div>Jul</div>
+            <div class="pt"><div class="stick" style="height: 92%; background: #cddcf7;"><span class="knob" style="background: #5b8def;"></span></div>Aug</div>
+          </div>
+          <div class="legend" style="flex-direction: row; justify-content: center; gap: 24px;">
+            <div class="legend-row"><span class="dot dot-blue"></span> users</div>
+            <div class="legend-row"><span class="dot dot-green"></span> dietitians</div>
+          </div>
+        </div>
+        <div class="card" style="flex: 1;">
+          <div class="card-head">
+            <h3>Pending Dietitian Approvals</h3>
+            <a href="../manage/admin-dietitians.html" class="view-all">View All &#8250;</a>
+          </div>
+          <div>
+            <div class="approval-row">
+              <span class="initial ini-blue">E</span>
+              <div>
+                <div style="font-size: 14px; font-weight: 700;">Dr. Emily Watson</div>
+                <div style="font-size: 12px; color: #8a92a3;">Sports Nutrition &middot; Applied Aug 1, 2026</div>
+              </div>
+            </div>
+            <div class="approval-row">
+              <span class="initial ini-orange">O</span>
+              <div>
+                <div style="font-size: 14px; font-weight: 700;">Dr. Omar Khalid</div>
+                <div style="font-size: 12px; color: #8a92a3;">Clinical Dietitian &middot; Applied Jul 31, 2026</div>
+              </div>
+            </div>
+            <div class="approval-row">
+              <span class="initial ini-purple">L</span>
+              <div>
+                <div style="font-size: 14px; font-weight: 700;">Dr. Liu Wei</div>
+                <div style="font-size: 12px; color: #8a92a3;">Pediatric Nutrition &middot; Applied Jul 30, 2026</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-head">
+          <h3>Recent Users</h3>
+          <a href="../manage/admin-users.html" class="view-all">View All &#8250;</a>
+        </div>
+        <div class="table">
+          <div class="trow thead">
+            <span class="tcell wide">User</span>
+            <span class="tcell wide">Email</span>
+            <span class="tcell">Joined</span>
+            <span class="tcell">Status</span>
+          </div>
+          <div class="trow">
+            <span class="tcell wide">Jordan Park</span>
+            <span class="tcell wide sub">jordan@email.com</span>
+            <span class="tcell sub">Aug 1, 2026</span>
+            <span class="tcell"><span class="badge badge-green">Active</span></span>
+          </div>
+          <div class="trow">
+            <span class="tcell wide">Aisha Nwosu</span>
+            <span class="tcell wide sub">aisha@email.com</span>
+            <span class="tcell sub">Jul 31, 2026</span>
+            <span class="tcell"><span class="badge badge-green">Active</span></span>
+          </div>
+          <div class="trow">
+            <span class="tcell wide">Tom Rivera</span>
+            <span class="tcell wide sub">tom@email.com</span>
+            <span class="tcell sub">Jul 30, 2026</span>
+            <span class="tcell"><span class="badge badge-gray">Inactive</span></span>
+          </div>
+          <div class="trow">
+            <span class="tcell wide">Mei Zhang</span>
+            <span class="tcell wide sub">mei@email.com</span>
+            <span class="tcell sub">Jul 29, 2026</span>
+            <span class="tcell"><span class="badge badge-green">Active</span></span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

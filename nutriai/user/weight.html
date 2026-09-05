@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Weight Progress - NutriAI</title>
+<link rel="stylesheet" href="../css/base.css">
+<link rel="stylesheet" href="../css/user-portal.css">
+</head>
+<body>
+
+<div class="app">
+  <aside class="sidebar">
+    <div class="sidebar-brand">
+      <span class="logo-icon">&#9825;</span>
+      <div>
+        <div class="name">NutriAI</div>
+        <div class="portal">User Portal</div>
+      </div>
+    </div>
+    <nav class="sidebar-nav">
+      <a href="../user/dashboard.html">&#9638; Dashboard</a>
+      <a href="../user/food-log.html">&#127860; Food Log</a>
+      <a href="../user/water.html">&#128167; Water Intake</a>
+      <a href="../user/sleep.html">&#127769; Sleep Tracker</a>
+      <a href="../user/weight.html" class="active">&#9878; Weight Progress</a>
+      <a href="../user/reports.html">&#128202; Reports</a>
+      <a href="../user/diet-plans.html">&#128214; Diet Plans</a>
+      <a href="../user/recipes.html">&#127859; Recipes</a>
+      <a href="../user/chat.html">&#128172; Chat <span class="nav-badge">3</span></a>
+      <a href="../user/profile.html">&#128100; Profile</a>
+      <a href="../user/settings.html">&#9881; Settings</a>
+    </nav>
+    <div class="sidebar-user">
+      <div class="who">
+        <span class="avatar avatar-2">AJ</span>
+        <div>
+          <div class="uname">Alex Johnson</div>
+          <div class="uemail">alex@email.com</div>
+        </div>
+      </div>
+      <a href="../index.html" class="signout">Sign Out</a>
+    </div>
+  </aside>
+  <div class="main">
+    <header class="topbar">
+      <h1>Weight Progress</h1>
+      <div class="topbar-right">
+        <input class="search" type="text" placeholder="Search anything...">
+        <span class="bell">&#128276;</span>
+        <span class="avatar avatar-2">AJ</span>
+      </div>
+    </header>
+    <div class="content">
+      <div class="card-row">
+        <div class="card stat-card">
+          <span class="trend-down">&#8600; -2.1%</span>
+          <span class="icon icon-green">&#9878;</span>
+          <span class="big">78.8 kg</span>
+          <span class="name">Current Weight</span>
+          <span class="hint">As of today</span>
+        </div>
+        <div class="card stat-card">
+          <span class="icon icon-blue">&#127919;</span>
+          <span class="big">72.0 kg</span>
+          <span class="name">Target Weight</span>
+          <span class="hint">6.8 kg to go</span>
+        </div>
+        <div class="card stat-card">
+          <span class="icon icon-orange">&#128201;</span>
+          <span class="big">5.2 kg</span>
+          <span class="name">Total Lost</span>
+          <span class="hint">Since Jun 1</span>
+        </div>
+      </div>
+      <div class="card">
+        <h3>Weight Journey</h3>
+        <div class="line-chart">
+          <div class="pt"><div class="stick" style="height: 84%;"><span class="knob"></span></div>Jun 1</div>
+          <div class="pt"><div class="stick" style="height: 81%;"><span class="knob"></span></div>Jun 8</div>
+          <div class="pt"><div class="stick" style="height: 78%;"><span class="knob"></span></div>Jun 15</div>
+          <div class="pt"><div class="stick" style="height: 76%;"><span class="knob"></span></div>Jun 22</div>
+          <div class="pt"><div class="stick" style="height: 72%;"><span class="knob"></span></div>Jul 1</div>
+          <div class="pt"><div class="stick" style="height: 69%;"><span class="knob"></span></div>Today</div>
+        </div>
+      </div>
+      <div class="card-row">
+        <div class="card" style="flex: 1.4;">
+          <h3>Log Weight</h3>
+          <div class="log-weight">
+            <input class="input" type="text" value="78.8">
+            <select class="input" style="flex: 0 0 90px;"><option>kg</option><option>lbs</option></select>
+            <a href="../user/weight.html" class="btn btn-green">Log</a>
+          </div>
+        </div>
+        <div class="card">
+          <h3>Achievements</h3>
+          <div class="badges">
+            <span class="ach"><span class="emoji">&#127941;</span> -1 kg</span>
+            <span class="ach"><span class="emoji">&#127941;</span> -3 kg</span>
+            <span class="ach"><span class="emoji">&#127941;</span> -5 kg</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

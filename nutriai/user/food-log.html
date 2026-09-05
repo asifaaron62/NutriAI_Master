@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Food Log - NutriAI</title>
+<link rel="stylesheet" href="../css/base.css">
+<link rel="stylesheet" href="../css/user-portal.css">
+</head>
+<body>
+
+<div class="app">
+  <aside class="sidebar">
+    <div class="sidebar-brand">
+      <span class="logo-icon">&#9825;</span>
+      <div>
+        <div class="name">NutriAI</div>
+        <div class="portal">User Portal</div>
+      </div>
+    </div>
+    <nav class="sidebar-nav">
+      <a href="../user/dashboard.html">&#9638; Dashboard</a>
+      <a href="../user/food-log.html" class="active">&#127860; Food Log</a>
+      <a href="../user/water.html">&#128167; Water Intake</a>
+      <a href="../user/sleep.html">&#127769; Sleep Tracker</a>
+      <a href="../user/weight.html">&#9878; Weight Progress</a>
+      <a href="../user/reports.html">&#128202; Reports</a>
+      <a href="../user/diet-plans.html">&#128214; Diet Plans</a>
+      <a href="../user/recipes.html">&#127859; Recipes</a>
+      <a href="../user/chat.html">&#128172; Chat <span class="nav-badge">3</span></a>
+      <a href="../user/profile.html">&#128100; Profile</a>
+      <a href="../user/settings.html">&#9881; Settings</a>
+    </nav>
+    <div class="sidebar-user">
+      <div class="who">
+        <span class="avatar avatar-2">AJ</span>
+        <div>
+          <div class="uname">Alex Johnson</div>
+          <div class="uemail">alex@email.com</div>
+        </div>
+      </div>
+      <a href="../index.html" class="signout">Sign Out</a>
+    </div>
+  </aside>
+  <div class="main">
+    <header class="topbar">
+      <h1>Food Log</h1>
+      <div class="topbar-right">
+        <input class="search" type="text" placeholder="Search anything...">
+        <span class="bell">&#128276;</span>
+        <span class="avatar avatar-2">AJ</span>
+      </div>
+    </header>
+    <div class="content">
+      <div class="card-row">
+        <div class="card stat-card">
+          <span class="big">1,840</span>
+          <span class="name">Total Calories</span>
+          <span class="hint">of 2,000</span>
+          <div class="progress-track"><div class="progress-fill fill-green" style="width: 92%;"></div></div>
+        </div>
+        <div class="card stat-card">
+          <span class="big">112g</span>
+          <span class="name">Protein</span>
+          <span class="hint">of 130g</span>
+          <div class="progress-track"><div class="progress-fill fill-blue" style="width: 86%;"></div></div>
+        </div>
+        <div class="card stat-card">
+          <span class="big">198g</span>
+          <span class="name">Carbs</span>
+          <span class="hint">of 250g</span>
+          <div class="progress-track"><div class="progress-fill fill-orange" style="width: 79%;"></div></div>
+        </div>
+        <div class="card stat-card">
+          <span class="big">58g</span>
+          <span class="name">Fat</span>
+          <span class="hint">of 70g</span>
+          <div class="progress-track"><div class="progress-fill fill-pink" style="width: 83%;"></div></div>
+        </div>
+      </div>
+      <div class="card-row">
+        <div class="card" style="flex: 2;">
+          <div class="searchbar">
+            <input class="input" type="text" placeholder="Search food items...">
+            <a href="../user/food-log.html" class="btn btn-white">&#9776; Filter</a>
+          </div>
+          <div class="chips" style="margin-top: 18px;">
+            <a href="../user/food-log.html" class="chip active">Breakfast</a>
+            <a href="../user/food-log.html" class="chip">Lunch</a>
+            <a href="../user/food-log.html" class="chip">Dinner</a>
+            <a href="../user/food-log.html" class="chip">Snacks</a>
+          </div>
+          <div style="margin-top: 8px;">
+            <div class="food-row">
+              <span class="food-icon">&#127823;</span>
+              <div>
+                <div style="font-size: 14px; font-weight: 600;">Oatmeal with Banana</div>
+                <div style="font-size: 12px; color: #8a92a3;">P:8g &middot; C:52g &middot; F:5g</div>
+              </div>
+              <span style="margin-left: auto; font-size: 14px; font-weight: 700;">280 kcal</span>
+              <a href="../user/food-log.html" class="add-btn">+</a>
+            </div>
+            <div class="food-row">
+              <span class="food-icon">&#127823;</span>
+              <div>
+                <div style="font-size: 14px; font-weight: 600;">Scrambled Eggs</div>
+                <div style="font-size: 12px; color: #8a92a3;">P:14g &middot; C:2g &middot; F:12g</div>
+              </div>
+              <span style="margin-left: auto; font-size: 14px; font-weight: 700;">180 kcal</span>
+              <a href="../user/food-log.html" class="add-btn">+</a>
+            </div>
+            <div class="food-row">
+              <span class="food-icon">&#127823;</span>
+              <div>
+                <div style="font-size: 14px; font-weight: 600;">Orange Juice</div>
+                <div style="font-size: 12px; color: #8a92a3;">P:2g &middot; C:26g &middot; F:0g</div>
+              </div>
+              <span style="margin-left: auto; font-size: 14px; font-weight: 700;">110 kcal</span>
+              <a href="../user/food-log.html" class="add-btn">+</a>
+            </div>
+            <div class="food-row">
+              <span class="food-icon">&#127823;</span>
+              <div>
+                <div style="font-size: 14px; font-weight: 600;">Greek Yogurt</div>
+                <div style="font-size: 12px; color: #8a92a3;">P:18g &middot; C:9g &middot; F:3g</div>
+              </div>
+              <span style="margin-left: auto; font-size: 14px; font-weight: 700;">130 kcal</span>
+              <a href="../user/food-log.html" class="add-btn">+</a>
+            </div>
+          </div>
+        </div>
+        <div class="card" style="flex: 1; display: flex; flex-direction: column;">
+          <h3>Macro Distribution</h3>
+          <div style="display: flex; justify-content: center; padding: 10px 0 20px;">
+            <div class="ring" style="width: 170px; height: 170px; background: conic-gradient(#4cbb5a 0% 28%, #5b8def 28% 76%, #e6a23c 76% 100%);">
+              <div class="ring-inner" style="width: 100px; height: 100px;"></div>
+            </div>
+          </div>
+          <div class="legend">
+            <div class="legend-row"><span class="dot dot-green"></span> Protein <span class="pct">28%</span></div>
+            <div class="legend-row"><span class="dot dot-blue"></span> Carbs <span class="pct">48%</span></div>
+            <div class="legend-row"><span class="dot dot-orange"></span> Fat <span class="pct">24%</span></div>
+          </div>
+          <a href="../user/dashboard.html" class="btn btn-green" style="margin-top: 24px;">Save Food Log</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

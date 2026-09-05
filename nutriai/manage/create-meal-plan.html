@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Create Meal Plan - NutriAI</title>
+<link rel="stylesheet" href="../css/base.css">
+<link rel="stylesheet" href="../css/user-portal.css">
+<link rel="stylesheet" href="../css/manage-portal.css">
+</head>
+<body>
+
+<div class="app">
+  <aside class="sidebar">
+    <div class="sidebar-brand">
+      <span class="logo-icon">&#9825;</span>
+      <div>
+        <div class="name">NutriAI</div>
+        <div class="portal">Dietitian Portal</div>
+      </div>
+    </div>
+    <nav class="sidebar-nav">
+      <a href="../manage/dietitian-dashboard.html">&#9638; Dashboard</a>
+      <a href="../manage/dietitian-meal-plans.html" class="active">&#128214; Meal Plans</a>
+      <a href="../manage/dietitian-clients.html">&#128101; My Clients</a>
+      <a href="../manage/dietitian-recommendations.html">&#9889; Recommendations</a>
+      <a href="../manage/dietitian-recipes.html">&#127859; Recipes</a>
+      <a href="../manage/dietitian-chat.html">&#128172; Chat <span class="nav-badge">3</span></a>
+      <a href="../manage/dietitian-dashboard.html">&#128100; Profile</a>
+      <a href="../manage/dietitian-dashboard.html">&#9881; Settings</a>
+    </nav>
+    <div class="sidebar-user">
+      <div class="who">
+        <span class="avatar avatar-1">SG</span>
+        <div>
+          <div class="uname">Dr. Sarah Green</div>
+          <div class="uemail">sarah@nutri.com</div>
+        </div>
+      </div>
+      <a href="../index.html" class="signout">Sign Out</a>
+    </div>
+  </aside>
+  <div class="main">
+    <header class="topbar">
+      <h1>Create Meal Plan</h1>
+      <div class="topbar-right">
+        <span class="bell">&#128276;</span>
+        <span class="avatar avatar-1">SG</span>
+      </div>
+    </header>
+    <div class="content">
+      <div class="card">
+        <h3>Details</h3>
+        <div class="form-grid">
+          <div class="field">
+            <label>Name</label>
+            <input type="text" placeholder="Mediterranean Diet">
+          </div>
+          <div class="field">
+            <label>Assign to Client</label>
+            <select>
+              <option>Jordan Park</option>
+              <option>Aisha Nwosu</option>
+              <option>Tom Rivera</option>
+              <option>Mei Zhang</option>
+            </select>
+          </div>
+          <div class="field">
+            <label>Duration</label>
+            <select>
+              <option>4 weeks</option>
+              <option>8 weeks</option>
+              <option>12 weeks</option>
+            </select>
+          </div>
+        </div>
+      </div>
+      <div class="calorie-bar">
+        <span style="font-weight: 700;">Daily Calories</span>
+        <div style="display: flex; gap: 26px; align-items: center;">
+          <div class="mini"><div class="n">0</div><div class="l">Breakfast</div></div>
+          <div class="mini"><div class="n">0</div><div class="l">Lunch</div></div>
+          <div class="mini"><div class="n">0</div><div class="l">Snack</div></div>
+          <div class="mini"><div class="n">0</div><div class="l">Dinner</div></div>
+          <div class="mini total"><div class="n">0</div><div class="l">Total kcal</div></div>
+        </div>
+      </div>
+      <div class="card builder-meal">
+        <div class="head">
+          <h3 style="margin-bottom: 0;">&#127749; Breakfast <span style="font-size: 12px; font-weight: 400; color: #8a92a3;">7:00 AM</span></h3>
+          <span class="kcal">0 kcal</span>
+        </div>
+        <div class="searchbar">
+          <input class="input" type="text" placeholder="Search or type a food...">
+          <a href="../manage/create-meal-plan.html" class="btn btn-green">+ Add</a>
+        </div>
+      </div>
+      <div class="card builder-meal">
+        <div class="head">
+          <h3 style="margin-bottom: 0;">&#9728; Lunch <span style="font-size: 12px; font-weight: 400; color: #8a92a3;">12:30 PM</span></h3>
+          <span class="kcal">0 kcal</span>
+        </div>
+        <div class="searchbar">
+          <input class="input" type="text" placeholder="Search or type a food...">
+          <a href="../manage/create-meal-plan.html" class="btn btn-green">+ Add</a>
+        </div>
+      </div>
+      <div class="card builder-meal">
+        <div class="head">
+          <h3 style="margin-bottom: 0;">&#127822; Snack <span style="font-size: 12px; font-weight: 400; color: #8a92a3;">3:30 PM</span></h3>
+          <span class="kcal">0 kcal</span>
+        </div>
+        <div class="searchbar">
+          <input class="input" type="text" placeholder="Search or type a food...">
+          <a href="../manage/create-meal-plan.html" class="btn btn-green">+ Add</a>
+        </div>
+      </div>
+      <div class="card builder-meal">
+        <div class="head">
+          <h3 style="margin-bottom: 0;">&#127769; Dinner <span style="font-size: 12px; font-weight: 400; color: #8a92a3;">7:00 PM</span></h3>
+          <span class="kcal">0 kcal</span>
+        </div>
+        <div class="searchbar">
+          <input class="input" type="text" placeholder="Search or type a food...">
+          <a href="../manage/create-meal-plan.html" class="btn btn-green">+ Add</a>
+        </div>
+      </div>
+      <a href="../manage/dietitian-meal-plans.html" class="btn btn-green">Save Meal Plan</a>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

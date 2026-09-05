@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sleep Tracker - NutriAI</title>
+<link rel="stylesheet" href="../css/base.css">
+<link rel="stylesheet" href="../css/user-portal.css">
+</head>
+<body>
+
+<div class="app">
+  <aside class="sidebar">
+    <div class="sidebar-brand">
+      <span class="logo-icon">&#9825;</span>
+      <div>
+        <div class="name">NutriAI</div>
+        <div class="portal">User Portal</div>
+      </div>
+    </div>
+    <nav class="sidebar-nav">
+      <a href="../user/dashboard.html">&#9638; Dashboard</a>
+      <a href="../user/food-log.html">&#127860; Food Log</a>
+      <a href="../user/water.html">&#128167; Water Intake</a>
+      <a href="../user/sleep.html" class="active">&#127769; Sleep Tracker</a>
+      <a href="../user/weight.html">&#9878; Weight Progress</a>
+      <a href="../user/reports.html">&#128202; Reports</a>
+      <a href="../user/diet-plans.html">&#128214; Diet Plans</a>
+      <a href="../user/recipes.html">&#127859; Recipes</a>
+      <a href="../user/chat.html">&#128172; Chat <span class="nav-badge">3</span></a>
+      <a href="../user/profile.html">&#128100; Profile</a>
+      <a href="../user/settings.html">&#9881; Settings</a>
+    </nav>
+    <div class="sidebar-user">
+      <div class="who">
+        <span class="avatar avatar-2">AJ</span>
+        <div>
+          <div class="uname">Alex Johnson</div>
+          <div class="uemail">alex@email.com</div>
+        </div>
+      </div>
+      <a href="../index.html" class="signout">Sign Out</a>
+    </div>
+  </aside>
+  <div class="main">
+    <header class="topbar">
+      <h1>Sleep Tracker</h1>
+      <div class="topbar-right">
+        <input class="search" type="text" placeholder="Search anything...">
+        <span class="bell">&#128276;</span>
+        <span class="avatar avatar-2">AJ</span>
+      </div>
+    </header>
+    <div class="content">
+      <div class="card-row">
+        <div class="card stat-card">
+          <span class="icon icon-purple">&#127769;</span>
+          <span class="big">7h 32m</span>
+          <span class="name">Last Night</span>
+          <span class="hint">Good quality</span>
+        </div>
+        <div class="card stat-card">
+          <span class="icon icon-green">&#128200;</span>
+          <span class="big">7h 48m</span>
+          <span class="name">Weekly Avg</span>
+          <span class="hint">+12 min vs last week</span>
+        </div>
+        <div class="card stat-card">
+          <span class="icon icon-orange">&#11088;</span>
+          <span class="big">82/100</span>
+          <span class="name">Sleep Score</span>
+          <span class="hint">Above average</span>
+        </div>
+      </div>
+      <div class="card-row">
+        <div class="card" style="flex: 1.6;">
+          <h3>Weekly Sleep Pattern</h3>
+          <div class="chart">
+            <div class="col"><div class="bar bar-purple" style="height: 72%;"></div>Mon</div>
+            <div class="col"><div class="bar bar-purple" style="height: 65%;"></div>Tue</div>
+            <div class="col"><div class="bar bar-purple" style="height: 78%;"></div>Wed</div>
+            <div class="col"><div class="bar bar-purple" style="height: 69%;"></div>Thu</div>
+            <div class="col"><div class="bar bar-purple" style="height: 62%;"></div>Fri</div>
+            <div class="col"><div class="bar bar-purple" style="height: 88%;"></div>Sat</div>
+            <div class="col"><div class="bar bar-purple" style="height: 80%;"></div>Sun</div>
+          </div>
+        </div>
+        <div class="card" style="flex: 1;">
+          <h3>Log Tonight's Sleep</h3>
+          <div style="display: flex; flex-direction: column; gap: 16px;">
+            <div class="field">
+              <label>Bedtime</label>
+              <input type="text" placeholder="10:30 PM">
+            </div>
+            <div class="field">
+              <label>Wake Time</label>
+              <input type="text" placeholder="6:30 AM">
+            </div>
+            <div class="field">
+              <label>Sleep Quality</label>
+              <div class="role-toggle">
+                <a href="../user/sleep.html">Poor</a>
+                <a href="../user/sleep.html">Fair</a>
+                <a href="../user/sleep.html" class="active">Good</a>
+              </div>
+            </div>
+            <a href="../user/dashboard.html" class="btn" style="background: #8b5cf6; color: #ffffff;">Save Sleep Log</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

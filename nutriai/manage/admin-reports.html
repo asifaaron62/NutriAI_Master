@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Reports - Admin - NutriAI</title>
+<link rel="stylesheet" href="../css/base.css">
+<link rel="stylesheet" href="../css/user-portal.css">
+<link rel="stylesheet" href="../css/manage-portal.css">
+</head>
+<body>
+
+<div class="app">
+  <aside class="sidebar">
+    <div class="sidebar-brand">
+      <span class="logo-icon">&#9825;</span>
+      <div>
+        <div class="name">NutriAI</div>
+        <div class="portal">Admin Portal</div>
+      </div>
+    </div>
+    <nav class="sidebar-nav">
+      <a href="../manage/admin-dashboard.html">&#9638; Dashboard</a>
+      <a href="../manage/admin-users.html">&#128101; Manage Users</a>
+      <a href="../manage/admin-dietitians.html">&#128105; Manage Dietitians</a>
+      <a href="../manage/admin-foods.html">&#127823; Food Database</a>
+      <a href="../manage/admin-reports.html" class="active">&#128202; Reports</a>
+      <a href="../manage/admin-settings.html">&#9881; Settings</a>
+    </nav>
+    <div class="sidebar-user">
+      <div class="who">
+        <span class="avatar avatar-3">AD</span>
+        <div>
+          <div class="uname">Admin</div>
+          <div class="uemail">admin@nutriai.com</div>
+        </div>
+      </div>
+      <a href="../index.html" class="signout">Sign Out</a>
+    </div>
+  </aside>
+  <div class="main">
+    <header class="topbar">
+      <h1>Platform Reports</h1>
+      <div class="topbar-right">
+        <a href="../manage/admin-reports.html" class="btn btn-white">&#8681; Export PDF</a>
+        <span class="bell">&#128276;</span>
+        <span class="avatar avatar-3">AD</span>
+      </div>
+    </header>
+    <div class="content">
+      <div class="chips">
+        <a href="../manage/admin-reports.html" class="chip">Daily</a>
+        <a href="../manage/admin-reports.html" class="chip active">Weekly</a>
+        <a href="../manage/admin-reports.html" class="chip">Monthly</a>
+      </div>
+      <div class="card-row">
+        <div class="card stat-card">
+          <span class="icon icon-orange">&#128293;</span>
+          <span class="big">1,892</span>
+          <span class="name">Avg Calories</span>
+          <span class="hint">Goal: 2,000</span>
+        </div>
+        <div class="card stat-card">
+          <span class="icon icon-blue">&#128167;</span>
+          <span class="big">2.1L</span>
+          <span class="name">Avg Water</span>
+          <span class="hint">Goal: 2.5L</span>
+        </div>
+        <div class="card stat-card">
+          <span class="icon icon-purple">&#127769;</span>
+          <span class="big">7.5 hrs</span>
+          <span class="name">Avg Sleep</span>
+          <span class="hint">Goal: 8 hrs</span>
+        </div>
+        <div class="card stat-card">
+          <span class="trend-down">&#8600; -2.1%</span>
+          <span class="icon icon-green">&#9878;</span>
+          <span class="big">1.2 kg</span>
+          <span class="name">Avg Weight Lost</span>
+          <span class="hint">This week</span>
+        </div>
+      </div>
+      <div class="card-row">
+        <div class="card" style="flex: 1.4;">
+          <h3>Calories vs Goal</h3>
+          <div class="chart">
+            <div class="col"><div class="bar bar-green" style="height: 92%;"></div>Mon</div>
+            <div class="col"><div class="bar bar-green" style="height: 92%;"></div>Tue</div>
+            <div class="col"><div class="bar bar-green" style="height: 92%;"></div>Wed</div>
+            <div class="col"><div class="bar bar-green" style="height: 92%;"></div>Thu</div>
+            <div class="col"><div class="bar bar-green" style="height: 92%;"></div>Fri</div>
+            <div class="col"><div class="bar bar-green" style="height: 92%;"></div>Sat</div>
+            <div class="col"><div class="bar bar-green" style="height: 92%;"></div>Sun</div>
+          </div>
+          <div class="legend" style="flex-direction: row; justify-content: center; gap: 24px;">
+            <div class="legend-row"><span class="dot" style="background: #d4dae2;"></span> goal</div>
+            <div class="legend-row"><span class="dot dot-green"></span> calories</div>
+          </div>
+        </div>
+        <div class="card" style="flex: 1;">
+          <h3>Sleep Trend</h3>
+          <div class="line-chart">
+            <div class="pt"><div class="stick" style="height: 60%; background: #ddd2f5;"><span class="knob" style="background: #8b5cf6;"></span></div>Mon</div>
+            <div class="pt"><div class="stick" style="height: 56%; background: #ddd2f5;"><span class="knob" style="background: #8b5cf6;"></span></div>Tue</div>
+            <div class="pt"><div class="stick" style="height: 58%; background: #ddd2f5;"><span class="knob" style="background: #8b5cf6;"></span></div>Wed</div>
+            <div class="pt"><div class="stick" style="height: 62%; background: #ddd2f5;"><span class="knob" style="background: #8b5cf6;"></span></div>Thu</div>
+            <div class="pt"><div class="stick" style="height: 66%; background: #ddd2f5;"><span class="knob" style="background: #8b5cf6;"></span></div>Fri</div>
+            <div class="pt"><div class="stick" style="height: 72%; background: #ddd2f5;"><span class="knob" style="background: #8b5cf6;"></span></div>Sat</div>
+            <div class="pt"><div class="stick" style="height: 68%; background: #ddd2f5;"><span class="knob" style="background: #8b5cf6;"></span></div>Sun</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

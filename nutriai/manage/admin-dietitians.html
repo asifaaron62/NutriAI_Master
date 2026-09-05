@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Manage Dietitians - NutriAI</title>
+<link rel="stylesheet" href="../css/base.css">
+<link rel="stylesheet" href="../css/user-portal.css">
+<link rel="stylesheet" href="../css/manage-portal.css">
+</head>
+<body>
+
+<div class="app">
+  <aside class="sidebar">
+    <div class="sidebar-brand">
+      <span class="logo-icon">&#9825;</span>
+      <div>
+        <div class="name">NutriAI</div>
+        <div class="portal">Admin Portal</div>
+      </div>
+    </div>
+    <nav class="sidebar-nav">
+      <a href="../manage/admin-dashboard.html">&#9638; Dashboard</a>
+      <a href="../manage/admin-users.html">&#128101; Manage Users</a>
+      <a href="../manage/admin-dietitians.html" class="active">&#128105; Manage Dietitians</a>
+      <a href="../manage/admin-foods.html">&#127823; Food Database</a>
+      <a href="../manage/admin-reports.html">&#128202; Reports</a>
+      <a href="../manage/admin-settings.html">&#9881; Settings</a>
+    </nav>
+    <div class="sidebar-user">
+      <div class="who">
+        <span class="avatar avatar-3">AD</span>
+        <div>
+          <div class="uname">Admin</div>
+          <div class="uemail">admin@nutriai.com</div>
+        </div>
+      </div>
+      <a href="../index.html" class="signout">Sign Out</a>
+    </div>
+  </aside>
+  <div class="main">
+    <header class="topbar">
+      <h1>Manage Dietitians</h1>
+      <div class="topbar-right">
+        <span class="bell">&#128276;</span>
+        <span class="avatar avatar-3">AD</span>
+      </div>
+    </header>
+    <div class="content">
+      <div class="card-row">
+        <div class="card stat-card">
+          <span class="icon icon-blue">&#128101;</span>
+          <span class="big">8</span>
+          <span class="name">Total Dietitians</span>
+          <span class="hint">On platform</span>
+        </div>
+        <div class="card stat-card">
+          <span class="icon icon-orange">&#9888;</span>
+          <span class="big">3</span>
+          <span class="name">Pending Approval</span>
+          <span class="hint">Awaiting review</span>
+        </div>
+        <div class="card stat-card">
+          <span class="icon icon-green">&#10004;</span>
+          <span class="big">3</span>
+          <span class="name">Active Dietitians</span>
+          <span class="hint">Currently serving</span>
+        </div>
+      </div>
+      <div class="searchbar">
+        <input class="input" type="text" placeholder="Search dietitians...">
+        <div class="chips">
+          <a href="../manage/admin-dietitians.html" class="chip active">All (8)</a>
+          <a href="../manage/admin-dietitians.html" class="chip">Pending (3)</a>
+          <a href="../manage/admin-dietitians.html" class="chip">Approved (3)</a>
+          <a href="../manage/admin-dietitians.html" class="chip">Suspended (1)</a>
+          <a href="../manage/admin-dietitians.html" class="chip">Rejected (1)</a>
+        </div>
+      </div>
+      <div class="card">
+        <div class="table">
+          <div class="trow thead">
+            <span class="tcell wide">Dietitian</span>
+            <span class="tcell wide">Specialty</span>
+            <span class="tcell">Experience</span>
+            <span class="tcell">Clients</span>
+            <span class="tcell">Status</span>
+          </div>
+          <div class="trow">
+            <span class="tcell wide">Dr. Emily Watson<br><span class="sub">emily@nutricare.com</span></span>
+            <span class="tcell wide">Sports Nutrition</span>
+            <span class="tcell">8 years</span>
+            <span class="tcell">0</span>
+            <span class="tcell"><span class="badge badge-orange">Pending</span></span>
+          </div>
+          <div class="trow">
+            <span class="tcell wide">Dr. Omar Khalid<br><span class="sub">omar@healthdiet.com</span></span>
+            <span class="tcell wide">Clinical Dietitian</span>
+            <span class="tcell">12 years</span>
+            <span class="tcell">0</span>
+            <span class="tcell"><span class="badge badge-orange">Pending</span></span>
+          </div>
+          <div class="trow">
+            <span class="tcell wide">Dr. Liu Wei<br><span class="sub">liu@wellness.com</span></span>
+            <span class="tcell wide">Pediatric Nutrition</span>
+            <span class="tcell">5 years</span>
+            <span class="tcell">0</span>
+            <span class="tcell"><span class="badge badge-orange">Pending</span></span>
+          </div>
+          <div class="trow">
+            <span class="tcell wide">Dr. Sarah Green<br><span class="sub">sarah@nutri.com</span></span>
+            <span class="tcell wide">Weight Management</span>
+            <span class="tcell">10 years</span>
+            <span class="tcell">34</span>
+            <span class="tcell"><span class="badge badge-green">Approved</span></span>
+          </div>
+          <div class="trow">
+            <span class="tcell wide">Dr. James Lee<br><span class="sub">james@fitdiet.com</span></span>
+            <span class="tcell wide">Sports Nutrition</span>
+            <span class="tcell">7 years</span>
+            <span class="tcell">28</span>
+            <span class="tcell"><span class="badge badge-green">Approved</span></span>
+          </div>
+          <div class="trow">
+            <span class="tcell wide">Dr. Mia Patel<br><span class="sub">mia@ketodiet.com</span></span>
+            <span class="tcell wide">Ketogenic Diets</span>
+            <span class="tcell">6 years</span>
+            <span class="tcell">19</span>
+            <span class="tcell"><span class="badge badge-green">Approved</span></span>
+          </div>
+          <div class="trow">
+            <span class="tcell wide">Dr. Chris Bowen<br><span class="sub">chris@food.com</span></span>
+            <span class="tcell wide">Gastrointestinal</span>
+            <span class="tcell">4 years</span>
+            <span class="tcell">0</span>
+            <span class="tcell"><span class="badge badge-gray">Rejected</span></span>
+          </div>
+          <div class="trow">
+            <span class="tcell wide">Dr. Yuki Tanaka<br><span class="sub">yuki@zen.com</span></span>
+            <span class="tcell wide">Plant-Based Nutrition</span>
+            <span class="tcell">2 years</span>
+            <span class="tcell">0</span>
+            <span class="tcell"><span class="badge badge-gray">Rejected</span></span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

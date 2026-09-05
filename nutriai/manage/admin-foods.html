@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Food Database - NutriAI</title>
+<link rel="stylesheet" href="../css/base.css">
+<link rel="stylesheet" href="../css/user-portal.css">
+<link rel="stylesheet" href="../css/manage-portal.css">
+</head>
+<body>
+
+<div class="app">
+  <aside class="sidebar">
+    <div class="sidebar-brand">
+      <span class="logo-icon">&#9825;</span>
+      <div>
+        <div class="name">NutriAI</div>
+        <div class="portal">Admin Portal</div>
+      </div>
+    </div>
+    <nav class="sidebar-nav">
+      <a href="../manage/admin-dashboard.html">&#9638; Dashboard</a>
+      <a href="../manage/admin-users.html">&#128101; Manage Users</a>
+      <a href="../manage/admin-dietitians.html">&#128105; Manage Dietitians</a>
+      <a href="../manage/admin-foods.html" class="active">&#127823; Food Database</a>
+      <a href="../manage/admin-reports.html">&#128202; Reports</a>
+      <a href="../manage/admin-settings.html">&#9881; Settings</a>
+    </nav>
+    <div class="sidebar-user">
+      <div class="who">
+        <span class="avatar avatar-3">AD</span>
+        <div>
+          <div class="uname">Admin</div>
+          <div class="uemail">admin@nutriai.com</div>
+        </div>
+      </div>
+      <a href="../index.html" class="signout">Sign Out</a>
+    </div>
+  </aside>
+  <div class="main">
+    <header class="topbar">
+      <h1>Food Database</h1>
+      <div class="topbar-right">
+        <span class="bell">&#128276;</span>
+        <span class="avatar avatar-3">AD</span>
+      </div>
+    </header>
+    <div class="content">
+      <div class="card-row">
+        <div class="card stat-card">
+          <span class="icon icon-blue">&#128451;</span>
+          <span class="big">20</span>
+          <span class="name">Total Foods</span>
+          <span class="hint">In database</span>
+        </div>
+        <div class="card stat-card">
+          <span class="icon icon-green">&#127823;</span>
+          <span class="big">3</span>
+          <span class="name">Fruits</span>
+          <span class="hint">Items</span>
+        </div>
+        <div class="card stat-card">
+          <span class="icon icon-green">&#129382;</span>
+          <span class="big">3</span>
+          <span class="name">Vegetables</span>
+          <span class="hint">Items</span>
+        </div>
+      </div>
+      <div class="searchbar">
+        <input class="input" type="text" placeholder="Search foods...">
+        <div class="chips">
+          <a href="../manage/admin-foods.html" class="chip active">All</a>
+          <a href="../manage/admin-foods.html" class="chip">Fruits</a>
+          <a href="../manage/admin-foods.html" class="chip">Vegetables</a>
+          <a href="../manage/admin-foods.html" class="chip">Grains</a>
+          <a href="../manage/admin-foods.html" class="chip">Protein</a>
+          <a href="../manage/admin-foods.html" class="chip">Dairy</a>
+          <a href="../manage/admin-foods.html" class="chip">Nuts &amp; Seeds</a>
+          <a href="../manage/admin-foods.html" class="chip">Beverages</a>
+          <a href="../manage/admin-foods.html" class="chip">Snacks</a>
+        </div>
+      </div>
+      <div class="card">
+        <div class="table">
+          <div class="trow thead">
+            <span class="tcell wide">Food Name</span>
+            <span class="tcell">Category</span>
+            <span class="tcell">Serving</span>
+            <span class="tcell">Calories</span>
+            <span class="tcell">Protein</span>
+          </div>
+          <div class="trow">
+            <span class="tcell wide">Banana</span>
+            <span class="tcell"><span class="badge badge-green">Fruits</span></span>
+            <span class="tcell sub">100g</span>
+            <span class="tcell">89</span>
+            <span class="tcell" style="color: #3b6fd4;">1.1g</span>
+          </div>
+          <div class="trow">
+            <span class="tcell wide">Apple</span>
+            <span class="tcell"><span class="badge badge-green">Fruits</span></span>
+            <span class="tcell sub">100g</span>
+            <span class="tcell">52</span>
+            <span class="tcell" style="color: #3b6fd4;">0.3g</span>
+          </div>
+          <div class="trow">
+            <span class="tcell wide">Blueberries</span>
+            <span class="tcell"><span class="badge badge-green">Fruits</span></span>
+            <span class="tcell sub">100g</span>
+            <span class="tcell">57</span>
+            <span class="tcell" style="color: #3b6fd4;">0.7g</span>
+          </div>
+          <div class="trow">
+            <span class="tcell wide">Broccoli</span>
+            <span class="tcell"><span class="badge badge-green">Vegetables</span></span>
+            <span class="tcell sub">100g</span>
+            <span class="tcell">34</span>
+            <span class="tcell" style="color: #3b6fd4;">2.8g</span>
+          </div>
+          <div class="trow">
+            <span class="tcell wide">Spinach</span>
+            <span class="tcell"><span class="badge badge-green">Vegetables</span></span>
+            <span class="tcell sub">100g</span>
+            <span class="tcell">23</span>
+            <span class="tcell" style="color: #3b6fd4;">2.9g</span>
+          </div>
+          <div class="trow">
+            <span class="tcell wide">Sweet Potato</span>
+            <span class="tcell"><span class="badge badge-green">Vegetables</span></span>
+            <span class="tcell sub">100g</span>
+            <span class="tcell">86</span>
+            <span class="tcell" style="color: #3b6fd4;">1.6g</span>
+          </div>
+          <div class="trow">
+            <span class="tcell wide">Brown Rice</span>
+            <span class="tcell"><span class="badge badge-orange">Grains</span></span>
+            <span class="tcell sub">100g cooked</span>
+            <span class="tcell">112</span>
+            <span class="tcell" style="color: #3b6fd4;">2.6g</span>
+          </div>
+          <div class="trow">
+            <span class="tcell wide">Quinoa</span>
+            <span class="tcell"><span class="badge badge-orange">Grains</span></span>
+            <span class="tcell sub">100g cooked</span>
+            <span class="tcell">120</span>
+            <span class="tcell" style="color: #3b6fd4;">4.4g</span>
+          </div>
+        </div>
+        <p class="page-note" style="margin-top: 16px;">Showing 1-8 of 20 items</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

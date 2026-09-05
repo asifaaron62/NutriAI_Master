@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dietitian Dashboard - NutriAI</title>
+<link rel="stylesheet" href="../css/base.css">
+<link rel="stylesheet" href="../css/user-portal.css">
+<link rel="stylesheet" href="../css/manage-portal.css">
+</head>
+<body>
+
+<div class="app">
+  <aside class="sidebar">
+    <div class="sidebar-brand">
+      <span class="logo-icon">&#9825;</span>
+      <div>
+        <div class="name">NutriAI</div>
+        <div class="portal">Dietitian Portal</div>
+      </div>
+    </div>
+    <nav class="sidebar-nav">
+      <a href="../manage/dietitian-dashboard.html" class="active">&#9638; Dashboard</a>
+      <a href="../manage/dietitian-meal-plans.html">&#128214; Meal Plans</a>
+      <a href="../manage/dietitian-clients.html">&#128101; My Clients</a>
+      <a href="../manage/dietitian-recommendations.html">&#9889; Recommendations</a>
+      <a href="../manage/dietitian-recipes.html">&#127859; Recipes</a>
+      <a href="../manage/dietitian-chat.html">&#128172; Chat <span class="nav-badge">3</span></a>
+      <a href="../manage/dietitian-dashboard.html">&#128100; Profile</a>
+      <a href="../manage/dietitian-dashboard.html">&#9881; Settings</a>
+    </nav>
+    <div class="sidebar-user">
+      <div class="who">
+        <span class="avatar avatar-1">SG</span>
+        <div>
+          <div class="uname">Dr. Sarah Green</div>
+          <div class="uemail">sarah@nutri.com</div>
+        </div>
+      </div>
+      <a href="../index.html" class="signout">Sign Out</a>
+    </div>
+  </aside>
+  <div class="main">
+    <header class="topbar">
+      <h1>Dietitian Dashboard</h1>
+      <div class="topbar-right">
+        <input class="search" type="text" placeholder="Search anything...">
+        <span class="bell">&#128276;</span>
+        <span class="avatar avatar-1">SG</span>
+      </div>
+    </header>
+    <div class="content">
+      <div class="card-row">
+        <div class="card stat-card">
+          <span class="trend-up">&#8599; +4.2%</span>
+          <span class="icon icon-blue">&#128101;</span>
+          <span class="big">34</span>
+          <span class="name">My Clients</span>
+          <span class="hint">2 new this week</span>
+        </div>
+        <div class="card stat-card">
+          <span class="icon icon-green">&#128214;</span>
+          <span class="big">28</span>
+          <span class="name">Active Plans</span>
+          <span class="hint">6 pending updates</span>
+        </div>
+        <div class="card stat-card">
+          <span class="icon icon-orange">&#128172;</span>
+          <span class="big">12</span>
+          <span class="name">Messages</span>
+          <span class="hint">Unread today</span>
+        </div>
+      </div>
+      <div class="card">
+        <h3>Client Progress Overview</h3>
+        <div class="chart">
+          <div class="col"><div class="bar bar-green" style="height: 84%;"></div>Jordan P.</div>
+          <div class="col"><div class="bar bar-green" style="height: 60%;"></div>Aisha N.</div>
+          <div class="col"><div class="bar bar-green" style="height: 80%;"></div>Tom R.</div>
+          <div class="col"><div class="bar bar-green" style="height: 56%;"></div>Mei Z.</div>
+        </div>
+        <div class="legend" style="flex-direction: row; justify-content: center; gap: 24px;">
+          <div class="legend-row"><span class="dot" style="background: #d4dae2;"></span> Target kg</div>
+          <div class="legend-row"><span class="dot dot-green"></span> Current kg</div>
+        </div>
+      </div>
+      <div class="card">
+        <h3>Recent Client Activity</h3>
+        <div class="table">
+          <div class="trow thead">
+            <span class="tcell wide">Client</span>
+            <span class="tcell">Last Log</span>
+            <span class="tcell">Calories</span>
+            <span class="tcell">Water</span>
+            <span class="tcell wide">Progress</span>
+          </div>
+          <div class="trow">
+            <span class="tcell wide">Jordan Park</span>
+            <span class="tcell sub">2h ago</span>
+            <span class="tcell">1,820/2,000</span>
+            <span class="tcell">2.1L</span>
+            <span class="tcell wide"><span class="bar-track"><span class="bar-fill" style="width: 95%;"></span></span></span>
+          </div>
+          <div class="trow">
+            <span class="tcell wide">Aisha Nwosu</span>
+            <span class="tcell sub">4h ago</span>
+            <span class="tcell">1,540/1,700</span>
+            <span class="tcell">2.4L</span>
+            <span class="tcell wide"><span class="bar-track"><span class="bar-fill" style="width: 90%;"></span></span></span>
+          </div>
+          <div class="trow">
+            <span class="tcell wide">Tom Rivera</span>
+            <span class="tcell sub">Yesterday</span>
+            <span class="tcell">2,200/2,100</span>
+            <span class="tcell">1.2L</span>
+            <span class="tcell wide"><span class="bar-track"><span class="bar-fill" style="width: 72%;"></span></span></span>
+          </div>
+          <div class="trow">
+            <span class="tcell wide">Mei Zhang</span>
+            <span class="tcell sub">1h ago</span>
+            <span class="tcell">1,290/1,400</span>
+            <span class="tcell">2.5L</span>
+            <span class="tcell wide"><span class="bar-track"><span class="bar-fill" style="width: 98%;"></span></span></span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

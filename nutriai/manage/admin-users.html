@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Manage Users - NutriAI</title>
+<link rel="stylesheet" href="../css/base.css">
+<link rel="stylesheet" href="../css/user-portal.css">
+<link rel="stylesheet" href="../css/manage-portal.css">
+</head>
+<body>
+
+<div class="app">
+  <aside class="sidebar">
+    <div class="sidebar-brand">
+      <span class="logo-icon">&#9825;</span>
+      <div>
+        <div class="name">NutriAI</div>
+        <div class="portal">Admin Portal</div>
+      </div>
+    </div>
+    <nav class="sidebar-nav">
+      <a href="../manage/admin-dashboard.html">&#9638; Dashboard</a>
+      <a href="../manage/admin-users.html" class="active">&#128101; Manage Users</a>
+      <a href="../manage/admin-dietitians.html">&#128105; Manage Dietitians</a>
+      <a href="../manage/admin-foods.html">&#127823; Food Database</a>
+      <a href="../manage/admin-reports.html">&#128202; Reports</a>
+      <a href="../manage/admin-settings.html">&#9881; Settings</a>
+    </nav>
+    <div class="sidebar-user">
+      <div class="who">
+        <span class="avatar avatar-3">AD</span>
+        <div>
+          <div class="uname">Admin</div>
+          <div class="uemail">admin@nutriai.com</div>
+        </div>
+      </div>
+      <a href="../index.html" class="signout">Sign Out</a>
+    </div>
+  </aside>
+  <div class="main">
+    <header class="topbar">
+      <h1>Manage Users</h1>
+      <div class="topbar-right">
+        <span class="bell">&#128276;</span>
+        <span class="avatar avatar-3">AD</span>
+      </div>
+    </header>
+    <div class="content">
+      <div class="searchbar">
+        <input class="input" type="text" placeholder="Search users...">
+        <a href="../manage/admin-users.html" class="btn btn-white">&#9776; Filter</a>
+        <a href="../manage/admin-users.html" class="btn btn-green">+ Add User</a>
+      </div>
+      <div class="card">
+        <div class="table">
+          <div class="trow thead">
+            <span class="tcell wide">User</span>
+            <span class="tcell wide">Email</span>
+            <span class="tcell">Joined</span>
+            <span class="tcell">Diet Plan</span>
+            <span class="tcell">BMI</span>
+            <span class="tcell">Status</span>
+          </div>
+          <div class="trow">
+            <span class="tcell wide">Jordan Park</span>
+            <span class="tcell wide sub">jordan@email.com</span>
+            <span class="tcell sub">Aug 1, 2026</span>
+            <span class="tcell">Mediterranean</span>
+            <span class="tcell">23.1</span>
+            <span class="tcell"><span class="badge badge-green">Active</span></span>
+          </div>
+          <div class="trow">
+            <span class="tcell wide">Aisha Nwosu</span>
+            <span class="tcell wide sub">aisha@email.com</span>
+            <span class="tcell sub">Jul 31, 2026</span>
+            <span class="tcell">High-Protein</span>
+            <span class="tcell">21.8</span>
+            <span class="tcell"><span class="badge badge-green">Active</span></span>
+          </div>
+          <div class="trow">
+            <span class="tcell wide">Tom Rivera</span>
+            <span class="tcell wide sub">tom@email.com</span>
+            <span class="tcell sub">Jul 30, 2026</span>
+            <span class="tcell">None</span>
+            <span class="tcell">27.4</span>
+            <span class="tcell"><span class="badge badge-gray">Inactive</span></span>
+          </div>
+          <div class="trow">
+            <span class="tcell wide">Mei Zhang</span>
+            <span class="tcell wide sub">mei@email.com</span>
+            <span class="tcell sub">Jul 29, 2026</span>
+            <span class="tcell">Low-Carb</span>
+            <span class="tcell">19.5</span>
+            <span class="tcell"><span class="badge badge-green">Active</span></span>
+          </div>
+          <div class="trow">
+            <span class="tcell wide">Ryan Cole</span>
+            <span class="tcell wide sub">ryan@email.com</span>
+            <span class="tcell sub">Jul 28, 2026</span>
+            <span class="tcell">Mediterranean</span>
+            <span class="tcell">25.2</span>
+            <span class="tcell"><span class="badge badge-red">Suspended</span></span>
+          </div>
+        </div>
+        <p class="page-note" style="margin-top: 16px;">Showing 5 of 5,412 users</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

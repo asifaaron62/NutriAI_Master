@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Settings - NutriAI</title>
+<link rel="stylesheet" href="../css/base.css">
+<link rel="stylesheet" href="../css/user-portal.css">
+</head>
+<body>
+
+<div class="app">
+  <aside class="sidebar">
+    <div class="sidebar-brand">
+      <span class="logo-icon">&#9825;</span>
+      <div>
+        <div class="name">NutriAI</div>
+        <div class="portal">User Portal</div>
+      </div>
+    </div>
+    <nav class="sidebar-nav">
+      <a href="dashboard.html">&#9638; Dashboard</a>
+      <a href="food-log.html">&#127860; Food Log</a>
+      <a href="water.html">&#128167; Water Intake</a>
+      <a href="sleep.html">&#127769; Sleep Tracker</a>
+      <a href="weight.html">&#9878; Weight Progress</a>
+      <a href="reports.html">&#128202; Reports</a>
+      <a href="diet-plans.html">&#128214; Diet Plans</a>
+      <a href="recipes.html">&#127859; Recipes</a>
+      <a href="chat.html">&#128172; Chat <span class="nav-badge">3</span></a>
+      <a href="profile.html">&#128100; Profile</a>
+      <a href="settings.html" class="active">&#9881; Settings</a>
+    </nav>
+    <div class="sidebar-user">
+      <div class="who">
+        <span class="avatar avatar-2">AJ</span>
+        <div>
+          <div class="uname">Alex Johnson</div>
+          <div class="uemail">alex@email.com</div>
+        </div>
+      </div>
+      <a href="../index.html" class="signout">Sign Out</a>
+    </div>
+  </aside>
+  <div class="main">
+    <header class="topbar">
+      <h1>Settings</h1>
+      <div class="topbar-right">
+        <span class="bell">&#128276;</span>
+        <span class="avatar avatar-2">AJ</span>
+      </div>
+    </header>
+    <div class="content">
+      <div class="card-row">
+        <div class="card" style="flex: 1;">
+          <h3>Account</h3>
+          <div style="display: flex; flex-direction: column; gap: 16px;">
+            <div class="field">
+              <label>Full name</label>
+              <input type="text" placeholder="Alex Johnson">
+            </div>
+            <div class="field">
+              <label>Email address</label>
+              <input type="email" placeholder="alex@email.com">
+            </div>
+            <div class="field">
+              <label>Password</label>
+              <input type="password" placeholder="&#8226;&#8226;&#8226;&#8226;&#8226;&#8226;&#8226;&#8226;">
+            </div>
+            <a href="settings.html" class="btn btn-green">Save Changes</a>
+          </div>
+        </div>
+        <div class="card" style="flex: 1;">
+          <h3>Goals</h3>
+          <div style="display: flex; flex-direction: column; gap: 16px;">
+            <div class="field">
+              <label>Daily calorie goal</label>
+              <input type="text" placeholder="2,000 kcal">
+            </div>
+            <div class="field">
+              <label>Daily water goal</label>
+              <input type="text" placeholder="2.5 L">
+            </div>
+            <div class="field">
+              <label>Sleep goal</label>
+              <input type="text" placeholder="8 hrs">
+            </div>
+            <div class="field">
+              <label>Target weight</label>
+              <input type="text" placeholder="72.0 kg">
+            </div>
+          </div>
+        </div>
+        <div class="card" style="flex: 1;">
+          <h3>Notifications</h3>
+          <div class="info-list">
+            <div class="info-row"><span class="k">Meal reminders</span><span class="v"><span class="badge badge-green">On</span></span></div>
+            <div class="info-row"><span class="k">Water reminders</span><span class="v"><span class="badge badge-green">On</span></span></div>
+            <div class="info-row"><span class="k">Sleep reminders</span><span class="v"><span class="badge badge-gray">Off</span></span></div>
+            <div class="info-row"><span class="k">Dietitian messages</span><span class="v"><span class="badge badge-green">On</span></span></div>
+            <div class="info-row"><span class="k">Weekly report email</span><span class="v"><span class="badge badge-green">On</span></span></div>
+            <div class="info-row"><span class="k">Achievement alerts</span><span class="v"><span class="badge badge-green">On</span></span></div>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <h3>Account Actions</h3>
+        <div class="info-list">
+          <div class="info-row">
+            <span class="k">Export my data</span>
+            <span class="v"><a href="settings.html" class="btn btn-white" style="padding: 9px 18px;">Export</a></span>
+          </div>
+          <div class="info-row">
+            <span class="k">Sign out</span>
+            <span class="v"><a href="../index.html" class="btn" style="padding: 9px 18px; background: #fdecea; color: #d1493f;">Sign Out</a></span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

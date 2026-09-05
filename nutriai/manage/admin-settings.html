@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Settings - Admin - NutriAI</title>
+<link rel="stylesheet" href="../css/base.css">
+<link rel="stylesheet" href="../css/user-portal.css">
+<link rel="stylesheet" href="../css/manage-portal.css">
+</head>
+<body>
+
+<div class="app">
+  <aside class="sidebar">
+    <div class="sidebar-brand">
+      <span class="logo-icon">&#9825;</span>
+      <div>
+        <div class="name">NutriAI</div>
+        <div class="portal">Admin Portal</div>
+      </div>
+    </div>
+    <nav class="sidebar-nav">
+      <a href="../manage/admin-dashboard.html">&#9638; Dashboard</a>
+      <a href="../manage/admin-users.html">&#128101; Manage Users</a>
+      <a href="../manage/admin-dietitians.html">&#128105; Manage Dietitians</a>
+      <a href="../manage/admin-foods.html">&#127823; Food Database</a>
+      <a href="../manage/admin-reports.html">&#128202; Reports</a>
+      <a href="../manage/admin-settings.html" class="active">&#9881; Settings</a>
+    </nav>
+    <div class="sidebar-user">
+      <div class="who">
+        <span class="avatar avatar-3">AD</span>
+        <div>
+          <div class="uname">Admin</div>
+          <div class="uemail">admin@nutriai.com</div>
+        </div>
+      </div>
+      <a href="../index.html" class="signout">Sign Out</a>
+    </div>
+  </aside>
+  <div class="main">
+    <header class="topbar">
+      <h1>Settings</h1>
+      <div class="topbar-right">
+        <span class="bell">&#128276;</span>
+        <span class="avatar avatar-3">AD</span>
+      </div>
+    </header>
+    <div class="content">
+      <div class="card-row">
+        <div class="card" style="flex: 1;">
+          <h3>Account</h3>
+          <div style="display: flex; flex-direction: column; gap: 16px;">
+            <div class="field">
+              <label>Full name</label>
+              <input type="text" placeholder="Admin">
+            </div>
+            <div class="field">
+              <label>Email address</label>
+              <input type="email" placeholder="admin@nutriai.com">
+            </div>
+            <div class="field">
+              <label>Password</label>
+              <input type="password" placeholder="&#8226;&#8226;&#8226;&#8226;&#8226;&#8226;&#8226;&#8226;">
+            </div>
+            <a href="../manage/admin-settings.html" class="btn btn-green">Save Changes</a>
+          </div>
+        </div>
+        <div class="card" style="flex: 1;">
+          <h3>Platform Preferences</h3>
+          <div class="info-list">
+            <div class="info-row"><span class="k">New user registration</span><span class="v"><span class="badge badge-green">Enabled</span></span></div>
+            <div class="info-row"><span class="k">Dietitian applications</span><span class="v"><span class="badge badge-green">Enabled</span></span></div>
+            <div class="info-row"><span class="k">Auto-approve dietitians</span><span class="v"><span class="badge badge-gray">Disabled</span></span></div>
+            <div class="info-row"><span class="k">Email notifications</span><span class="v"><span class="badge badge-green">Enabled</span></span></div>
+            <div class="info-row"><span class="k">Weekly report digest</span><span class="v"><span class="badge badge-green">Enabled</span></span></div>
+            <div class="info-row"><span class="k">Maintenance mode</span><span class="v"><span class="badge badge-gray">Off</span></span></div>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <h3>Danger Zone</h3>
+        <div class="info-list">
+          <div class="info-row">
+            <span class="k">Export all platform data</span>
+            <span class="v"><a href="../manage/admin-settings.html" class="btn btn-white" style="padding: 9px 18px;">Export</a></span>
+          </div>
+          <div class="info-row">
+            <span class="k">Sign out of all sessions</span>
+            <span class="v"><a href="../index.html" class="btn" style="padding: 9px 18px; background: #fdecea; color: #d1493f;">Sign Out</a></span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

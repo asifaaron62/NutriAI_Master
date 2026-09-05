@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Water Tracker - NutriAI</title>
+<link rel="stylesheet" href="../css/base.css">
+<link rel="stylesheet" href="../css/user-portal.css">
+</head>
+<body>
+
+<div class="app">
+  <aside class="sidebar">
+    <div class="sidebar-brand">
+      <span class="logo-icon">&#9825;</span>
+      <div>
+        <div class="name">NutriAI</div>
+        <div class="portal">User Portal</div>
+      </div>
+    </div>
+    <nav class="sidebar-nav">
+      <a href="../user/dashboard.html">&#9638; Dashboard</a>
+      <a href="../user/food-log.html">&#127860; Food Log</a>
+      <a href="../user/water.html" class="active">&#128167; Water Intake</a>
+      <a href="../user/sleep.html">&#127769; Sleep Tracker</a>
+      <a href="../user/weight.html">&#9878; Weight Progress</a>
+      <a href="../user/reports.html">&#128202; Reports</a>
+      <a href="../user/diet-plans.html">&#128214; Diet Plans</a>
+      <a href="../user/recipes.html">&#127859; Recipes</a>
+      <a href="../user/chat.html">&#128172; Chat <span class="nav-badge">3</span></a>
+      <a href="../user/profile.html">&#128100; Profile</a>
+      <a href="../user/settings.html">&#9881; Settings</a>
+    </nav>
+    <div class="sidebar-user">
+      <div class="who">
+        <span class="avatar avatar-2">AJ</span>
+        <div>
+          <div class="uname">Alex Johnson</div>
+          <div class="uemail">alex@email.com</div>
+        </div>
+      </div>
+      <a href="../index.html" class="signout">Sign Out</a>
+    </div>
+  </aside>
+  <div class="main">
+    <header class="topbar">
+      <h1>Water Tracker</h1>
+      <div class="topbar-right">
+        <input class="search" type="text" placeholder="Search anything...">
+        <span class="bell">&#128276;</span>
+        <span class="avatar avatar-2">AJ</span>
+      </div>
+    </header>
+    <div class="content">
+      <div class="card-row">
+        <div class="card" style="display: flex; flex-direction: column; align-items: center; gap: 16px;">
+          <h3>Today's Water Intake</h3>
+          <div class="ring ring-water">
+            <div class="ring-inner">70%</div>
+          </div>
+          <div style="text-align: center;">
+            <div style="font-size: 22px; font-weight: 700;">1750 ml</div>
+            <div style="font-size: 13px; color: #8a92a3;">of 2500 ml goal</div>
+          </div>
+          <div class="counter">
+            <a href="../user/water.html">&#8722;</a>
+            <div>
+              <div class="num">7</div>
+              <div class="cap">glasses</div>
+            </div>
+            <a href="../user/water.html">+</a>
+          </div>
+        </div>
+        <div class="card" style="flex: 1.4;">
+          <h3>Weekly History</h3>
+          <div class="chart">
+            <div class="col"><div class="bar bar-blue" style="height: 82%;"></div>Mon</div>
+            <div class="col"><div class="bar bar-blue" style="height: 68%;"></div>Tue</div>
+            <div class="col"><div class="bar bar-blue" style="height: 95%;"></div>Wed</div>
+            <div class="col"><div class="bar bar-blue" style="height: 80%;"></div>Thu</div>
+            <div class="col"><div class="bar bar-blue" style="height: 58%;"></div>Fri</div>
+            <div class="col"><div class="bar bar-blue" style="height: 74%;"></div>Sat</div>
+            <div class="col"><div class="bar bar-blue" style="height: 70%;"></div>Sun</div>
+          </div>
+          <div class="tip">&#128167; <span><strong>Tip:</strong> Drink a glass of water before every meal.</span></div>
+        </div>
+      </div>
+      <div class="card">
+        <h3>Glass Tracker</h3>
+        <div class="glass-row">
+          <span class="glass">&#128167; 250ml</span>
+          <span class="glass">&#128167; 500ml</span>
+          <span class="glass">&#128167; 750ml</span>
+          <span class="glass">&#128167; 1000ml</span>
+          <span class="glass">&#128167; 1250ml</span>
+          <span class="glass">&#128167; 1500ml</span>
+          <span class="glass">&#128167; 1750ml</span>
+          <span class="glass empty">&#128167; 2000ml</span>
+          <span class="glass empty">&#128167; 2250ml</span>
+          <span class="glass empty">&#128167; 2500ml</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

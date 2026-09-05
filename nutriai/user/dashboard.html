@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dashboard - NutriAI</title>
+<link rel="stylesheet" href="../css/base.css">
+<link rel="stylesheet" href="../css/user-portal.css">
+</head>
+<body>
+
+<div class="app">
+  <aside class="sidebar">
+    <div class="sidebar-brand">
+      <span class="logo-icon">&#9825;</span>
+      <div>
+        <div class="name">NutriAI</div>
+        <div class="portal">User Portal</div>
+      </div>
+    </div>
+    <nav class="sidebar-nav">
+      <a href="../user/dashboard.html" class="active">&#9638; Dashboard</a>
+      <a href="../user/food-log.html">&#127860; Food Log</a>
+      <a href="../user/water.html">&#128167; Water Intake</a>
+      <a href="../user/sleep.html">&#127769; Sleep Tracker</a>
+      <a href="../user/weight.html">&#9878; Weight Progress</a>
+      <a href="../user/reports.html">&#128202; Reports</a>
+      <a href="../user/diet-plans.html">&#128214; Diet Plans</a>
+      <a href="../user/recipes.html">&#127859; Recipes</a>
+      <a href="../user/chat.html">&#128172; Chat <span class="nav-badge">3</span></a>
+      <a href="../user/profile.html">&#128100; Profile</a>
+      <a href="../user/settings.html">&#9881; Settings</a>
+    </nav>
+    <div class="sidebar-user">
+      <div class="who">
+        <span class="avatar avatar-2">AJ</span>
+        <div>
+          <div class="uname">Alex Johnson</div>
+          <div class="uemail">alex@email.com</div>
+        </div>
+      </div>
+      <a href="../index.html" class="signout">Sign Out</a>
+    </div>
+  </aside>
+  <div class="main">
+    <header class="topbar">
+      <h1>Dashboard</h1>
+      <div class="topbar-right">
+        <input class="search" type="text" placeholder="Search anything...">
+        <span class="bell">&#128276;</span>
+        <span class="avatar avatar-2">AJ</span>
+      </div>
+    </header>
+    <div class="content">
+      <div class="greeting">
+        <h2>Good morning, Alex! &#128075;</h2>
+        <p>Here's your health summary for today &mdash; you're on track!</p>
+      </div>
+      <div class="card-row">
+        <div class="card stat-card">
+          <span class="trend-up">&#8599; +4.2%</span>
+          <span class="icon icon-orange">&#128293;</span>
+          <span class="big">1,840</span>
+          <span class="name">Calories Today</span>
+          <span class="hint">Goal: 2,000 kcal</span>
+        </div>
+        <div class="card stat-card">
+          <span class="icon icon-blue">&#128167;</span>
+          <span class="big">1.8L</span>
+          <span class="name">Water Intake</span>
+          <span class="hint">Goal: 2.5L</span>
+        </div>
+        <div class="card stat-card">
+          <span class="icon icon-purple">&#127769;</span>
+          <span class="big">7.5 hrs</span>
+          <span class="name">Sleep Last Night</span>
+          <span class="hint">Quality: Good</span>
+        </div>
+      </div>
+      <div class="card-row">
+        <div class="card">
+          <h3>Today's Macros</h3>
+          <div class="rings">
+            <div class="ring-block">
+              <div class="ring macro-ring ring-green">
+                <div class="ring-inner">82%</div>
+              </div>
+              Calories
+            </div>
+            <div class="ring-block">
+              <div class="ring macro-ring ring-blue">
+                <div class="ring-inner">91%</div>
+              </div>
+              Protein
+            </div>
+            <div class="ring-block">
+              <div class="ring macro-ring ring-orange">
+                <div class="ring-inner">68%</div>
+              </div>
+              Carbs
+            </div>
+          </div>
+          <div class="legend">
+            <div class="legend-row"><span class="dot dot-green"></span> Protein <span class="pct">28%</span></div>
+            <div class="legend-row"><span class="dot dot-blue"></span> Carbs <span class="pct">48%</span></div>
+            <div class="legend-row"><span class="dot dot-orange"></span> Fat <span class="pct">24%</span></div>
+          </div>
+        </div>
+        <div class="card">
+          <h3>Weekly Calories</h3>
+          <div class="chart">
+            <div class="col"><div class="bar bar-green" style="height: 78%;"></div>Mon</div>
+            <div class="col"><div class="bar bar-green" style="height: 70%;"></div>Tue</div>
+            <div class="col"><div class="bar bar-green" style="height: 84%;"></div>Wed</div>
+            <div class="col"><div class="bar bar-green" style="height: 74%;"></div>Thu</div>
+            <div class="col"><div class="bar bar-green" style="height: 68%;"></div>Fri</div>
+            <div class="col"><div class="bar bar-green" style="height: 90%;"></div>Sat</div>
+            <div class="col"><div class="bar bar-green" style="height: 82%;"></div>Sun</div>
+          </div>
+        </div>
+      </div>
+      <div class="card-row">
+        <div class="card" style="flex: 2;">
+          <div class="card-head">
+            <h3>Today's Meals</h3>
+            <a href="../user/food-log.html" class="view-all">View All &#8250;</a>
+          </div>
+          <div class="meal-list">
+            <div class="meal-row">
+              <span class="meal-thumb">&#129361;</span>
+              <div class="meta">
+                <span class="title">Avocado Toast</span>
+                <span class="sub">Breakfast</span>
+              </div>
+              <div class="right">
+                <span class="kcal">320 kcal</span>
+                <span class="sub">P:12g C:38g F:16g</span>
+              </div>
+            </div>
+            <div class="meal-row">
+              <span class="meal-thumb">&#129367;</span>
+              <div class="meta">
+                <span class="title">Grilled Chicken Salad</span>
+                <span class="sub">Lunch</span>
+              </div>
+              <div class="right">
+                <span class="kcal">480 kcal</span>
+                <span class="sub">P:42g C:22g F:18g</span>
+              </div>
+            </div>
+            <div class="meal-row">
+              <span class="meal-thumb">&#127843;</span>
+              <div class="meta">
+                <span class="title">Salmon &amp; Quinoa</span>
+                <span class="sub">Dinner</span>
+              </div>
+              <div class="right">
+                <span class="kcal">560 kcal</span>
+                <span class="sub">P:48g C:34g F:22g</span>
+              </div>
+            </div>
+            <div class="meal-row">
+              <span class="meal-thumb">&#129380;</span>
+              <div class="meta">
+                <span class="title">Greek Yogurt &amp; Berries</span>
+                <span class="sub">Snack</span>
+              </div>
+              <div class="right">
+                <span class="kcal">180 kcal</span>
+                <span class="sub">P:14g C:24g F:4g</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card-row" style="flex: 1; flex-direction: column;">
+          <div class="card">
+            <h3>BMI Overview</h3>
+            <div style="display: flex; align-items: center; justify-content: space-between;">
+              <span style="font-size: 30px; font-weight: 700;">22.4</span>
+              <span class="badge badge-green">Normal Weight</span>
+            </div>
+            <div class="bmi-scale"></div>
+            <div class="bmi-labels">
+              <span>Underweight</span>
+              <span>Normal</span>
+              <span>Obese</span>
+            </div>
+          </div>
+          <div class="card goal-card">
+            <span>&#127919; Today's Goal</span>
+            <span class="big">72%</span>
+            <span>You're doing great!</span>
+            <div class="bar-track"><div class="bar-fill"></div></div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <h3 style="margin-bottom: 16px;">Quick Actions</h3>
+        <div class="quick-actions">
+          <a href="../user/food-log.html"><span class="icon icon-green" style="width: 44px; height: 44px; border-radius: 12px; display: flex; align-items: center; justify-content: center;">&#127860;</span> Log Meal</a>
+          <a href="../user/water.html"><span class="icon icon-blue" style="width: 44px; height: 44px; border-radius: 12px; display: flex; align-items: center; justify-content: center;">&#128167;</span> Add Water</a>
+          <a href="../user/sleep.html"><span class="icon icon-purple" style="width: 44px; height: 44px; border-radius: 12px; display: flex; align-items: center; justify-content: center;">&#127769;</span> Log Sleep</a>
+          <a href="../user/weight.html"><span class="icon icon-orange" style="width: 44px; height: 44px; border-radius: 12px; display: flex; align-items: center; justify-content: center;">&#9878;</span> Log Weight</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
